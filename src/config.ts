@@ -1,91 +1,105 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Mani Krishna Mandepudi",
+  title: "Data Scientist",
+  description: "s",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "mandepudi.mk@example.com",
+    linkedin: "https://www.linkedin.com/in/manikrishna-m/",
+    github: "https://github.com/manikrishna-m",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Data Scientist in Leeds with 3+ years’ experience delivering production-ready ML, scalable pipelines, and MLOps. Passionate about reliability, measurable impact, and clear communication.",
+
+  skills: [
+    "Python","SQL","Statistics","Machine Learning","NLP","A/B Testing","Data Analysis",
+    "MLOps","Docker","GitHub Actions","MLflow","Airflow","Spark","Neo4j",
+    "PostgreSQL","MySQL","GCP","AWS","Pandas","PyTorch","TensorFlow","scikit-learn",
+    "Streamlit","Tableau"
+  ],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Train Fault Prediction (XGBoost + Streamlit)",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Time-series fault prediction (0.73 recall) with a Streamlit UI; packaged and deployed as a PoC on Cloud Run.",
+      link: "https://medium.com/@mandepudi.mk", // replace with blog/case study if available
+      skills: ["Python","XGBoost","Time Series","Streamlit","GCP"]
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Knowledge Graph for Docs (GPT-4 + Neo4j)",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Built a KG pipeline to extract entities/relations from unstructured docs and speed up retrieval by ~25%.",
+      link: "https://medium.com/@mandepudi.mk",
+      skills: ["LLMs","Neo4j","NLP","LangChain"]
     },
     {
-      name: "ExtensionKit",
+      name: "PDF → Text Package",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Reusable package for text/image/hybrid PDFs; used across multiple projects.",
+      link: "https://github.com/manikrishna-m", // replace if you open-source it
+      skills: ["Python","Tesseract/ocr","Pandas"]
     },
+    {
+      name: "Malaria Transmission Blocking Drug (PHIDDLI)",
+      description:
+        "End-to-end ML pipeline on malaria dataset.",
+      link: "https://github.com/manikrishna-m/Malaria-Transmission-Blocking-Drug",
+      skills: ["Python","scikit-learn"]
+    },
+    {
+      name: "Address Extraction (BERT NER)",
+      description: "BERT-based NER to extract addresses from documents.",
+      link: "https://github.com/manikrishna-m/address_extraction",
+      skills: ["BERT","NLP","PyTorch"]
+    }
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "LMS Ltd, UK",
+      title: "Data Scientist",
+      dateRange: "Jun 2025 – Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
+        "Introduced standardized DS project template and pre-commit hooks.",
+        "Built reusable PDF→Text package used in 3 projects."
+      ]
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Amygda AI, UK",
+      title: "Data Scientist",
+      dateRange: "Nov 2023 – Mar 2025",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
+        "Designed & shipped 4 production ML models for baggage scanners & trains; cut unplanned downtime by ~20%.",
+        "Built Python/PostgreSQL ETL + prediction pipelines; 60% runtime reduction.",
+        "Processed 14k+ files with PySpark on Dataproc; 40% faster time-to-insight.",
+        "MLOps with MLflow, Docker, GitHub, GCP (99.5% reliability via CI/CD + tests).",
+        "Improved prediction recall by 15% from production feedback loops."
+      ]
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Infosys, India",
+      title: "Data Scientist",
+      dateRange: "Nov 2020 – Aug 2022",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+        "Healthcare analytics; SQL views + Tableau dashboards (+70% comprehension).",
+        "Ensemble model (80% accuracy); NLP duplicate-loan BERT (F1 0.85)."
+      ]
+    }
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "University of Leeds",
+      degree: "MSc, Data Science",
+      dateRange: "Sep 2022 – Sep 2023",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Graduated with Merit",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "GVP College of Engineering",
+      degree: "B.Tech, Computer Science",
+      dateRange: "Aug 2016 – Sep 2020",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Graduated with 8.16/10",
       ],
     },
   ],
