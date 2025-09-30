@@ -115,14 +115,14 @@ export const siteConfig = {
       title: "Data Scientist",
       dateRange: "Nov 2023 – Mar 2025",
       bullets: [
-        "Spearheaded production-grade ML deployment for 40+ Heathrow airport baggage scanning machines, predicting HVPS and X-ray tube failures, reducing reactive maintenance costs by 95%, cutting overall spend by 61%, saving £500k, and automating monitoring to save 1,660 staff hours annually; project now being scaled across additional assets.",
+        "Spearheaded production-grade ML deployment for 40+ airport baggage scanning machines, predicting HVPS and X-ray tube failures, reducing reactive maintenance costs by 95%, cutting overall spend by 61%, saving £500k, and automating monitoring to save 1,660 staff hours annually; project now being scaled across additional assets.",
         "Delivered predictive maintenance and anomaly detection models across train fleet projects in the UK, achieving 90% detection rate, reducing weekly engineer workload by 75%, and processing billions of sensor data points in real time.",
         "Directed scalable PySpark pipelines on GCP to process 14,000+ annual airport log files, reducing analysis time from 32 to 4 hours and enabling real-time anomaly detection for operational teams.",
-        "Orchestrated feature engineering and forecasting models (XGBoost, anomaly detection) for Heathrow airport machines, achieving 0.81 recall and enabling actionable maintenance planning across operations.",
+        "Orchestrated feature engineering and forecasting models (XGBoost, anomaly detection) for airport baggage scanning  machines, achieving 0.81 recall and enabling actionable maintenance planning across operations.",
         "Implemented exponential moving average (EMA) anomaly detection and supervised models on high-frequency train sensor data, uncovering 18 of 23 failures and presenting results via a Streamlit application to stakeholders.",
         "Developed an internal Streamlit tool for automated data exploration, cleaning, feature selection, and anomaly detection, adopted by 2+ clients in the UK transport sector and reducing project setup time by 30%.",
         "Constructed a GPT-4/Neo4j knowledge graph from maintenance documents in the UK, improving retrieval efficiency and increasing F1@5 for RAG-based chatbot queries by 25%.",
-        "Integrated real-time feedback loops into ML models for Heathrow and train fleets, increasing recall by 15% and stabilising production performance.",
+        "Integrated real-time feedback loops into ML models for airport baggage scanning machine, increasing recall by 15% and stabilising production performance.",
         "Established end-to-end MLOps workflows with MLflow, GitHub Actions, and Docker, automating CI/CD pipelines, achieving 99.5% production reliability, and cutting setup time by 10+ hours for 2 additional projects.",
         "Collaborated with operations teams, maintenance engineers, and AI leadership across UK airports and train fleets to deliver predictive insights, strengthening stakeholder confidence in AI-driven maintenance strategies.",
       ]
