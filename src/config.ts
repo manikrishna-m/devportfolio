@@ -129,7 +129,7 @@ export const siteConfig = {
     },
     {
       company: "Infosys, India",
-      title: "Data Scientist",
+      title: "Digital Specialist Engineer",
       dateRange: "Nov 2020 – Aug 2022",
       bullets: [
         "Led cross-functional teams in analysing healthcare data for pregnant women in India, cleaning and creating SQL views that improved data quality and enabled seamless Tableau dashboard integration.",
